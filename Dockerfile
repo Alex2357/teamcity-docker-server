@@ -1,5 +1,5 @@
-FROM teamcity-base:latest
-MAINTAINER Kateryna Shlyakhovetska <shkate@jetbrains.com>
+FROM alex2357/teamcity-base:latest
+MAINTAINER AK <akubenko@gmail.com>
 
 ENV TEAMCITY_DATA_PATH=/data/teamcity_server/datadir \
     TEAMCITY_DIST=/opt/teamcity \
